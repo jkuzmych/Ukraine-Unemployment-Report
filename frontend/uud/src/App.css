@@ -1,0 +1,26 @@
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+h1{
+  color: #1768c4
+}
+
+hr {
+  border: none;
+  height: 9px;
+  background: linear-gradient(
+    to bottom,
+    #005bbb 0%,
+    #005bbb 50%,
+    #ffd500 50%,
+    #ffd500 100%
+  );
+  border-radius: 10px;
+  margin: 16px 0;
+}

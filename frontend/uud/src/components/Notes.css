@@ -1,0 +1,18 @@
+h2 {
+    color:rgb(88, 88, 88);
+    text-align: left
+}
+
+p {
+    color:rgb(88, 88, 88);
+    text-align: left;
+    font-size: 18px
+}
+.notes-container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 12px 16px;
+    box-sizing: border-box;
+  }

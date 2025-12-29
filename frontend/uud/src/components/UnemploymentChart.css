@@ -1,0 +1,144 @@
+/* Legend text styles */
+.legend-text {
+  color: #111827;
+  transition: color 0.2s ease;
+}
+
+.legend-text--hidden {
+  color: #9ca3af;
+}
+
+.recharts-default-legend li:hover .legend-text {
+  color: #2d6bcf !important;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.chart-body {
+  width: 100%;
+  height: 480px;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    max-width: 100%;
+    padding: 10px 12px;
+  }
+
+  .chart-body {
+    height: 380px;
+  }
+}
+
+.chart-title {
+  margin: 0;
+  font-size: 20px;
+  color: #0f172a;
+}
+
+.chart-subtitle {
+  margin: 4px 0 0;
+  color: #475569;
+  font-size: 16px;
+}
+
+.chart-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+.toggle-label {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.toggle-label--active {
+  color: #111827;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #feb408;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
