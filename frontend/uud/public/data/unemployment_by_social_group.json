@@ -1,0 +1,273 @@
+{
+  "data": [
+    {
+      "period": "2015 Q1",
+      "Total": 1731.5,
+      "Women": 697.2,
+      "Men": 1034.3,
+      "Urban": 1128.1,
+      "Rural": 603.4
+    },
+    {
+      "period": "2015 Q2",
+      "Total": 1603.2,
+      "Women": 670.5,
+      "Men": 932.7,
+      "Urban": 1102.6,
+      "Rural": 500.6
+    },
+    {
+      "period": "2015 Q3",
+      "Total": 1578.0,
+      "Women": 702.0,
+      "Men": 876.0,
+      "Urban": 1106.1,
+      "Rural": 471.9
+    },
+    {
+      "period": "2015 Q4",
+      "Total": 1706.1,
+      "Women": 699.1,
+      "Men": 1007.0,
+      "Urban": 1148.8,
+      "Rural": 557.3
+    },
+    {
+      "period": "2016 Q1",
+      "Total": 1767.4,
+      "Women": 653.2,
+      "Men": 1114.2,
+      "Urban": 1138.0,
+      "Rural": 629.4
+    },
+    {
+      "period": "2016 Q2",
+      "Total": 1615.6,
+      "Women": 617.0,
+      "Men": 998.6,
+      "Urban": 1078.5,
+      "Rural": 537.1
+    },
+    {
+      "period": "2016 Q3",
+      "Total": 1603.6,
+      "Women": 655.0,
+      "Men": 948.6,
+      "Urban": 1124.1,
+      "Rural": 479.5
+    },
+    {
+      "period": "2016 Q4",
+      "Total": 1726.2,
+      "Women": 683.0,
+      "Men": 1043.2,
+      "Urban": 1171.1,
+      "Rural": 555.1
+    },
+    {
+      "period": "2017 Q1",
+      "Total": 1786.9,
+      "Women": 713.0,
+      "Men": 1073.9,
+      "Urban": 1153.5,
+      "Rural": 633.4
+    },
+    {
+      "period": "2017 Q2",
+      "Total": 1632.4,
+      "Women": 586.6,
+      "Men": 1045.8,
+      "Urban": 1096.7,
+      "Rural": 535.7
+    },
+    {
+      "period": "2017 Q3",
+      "Total": 1611.3,
+      "Women": 562.9,
+      "Men": 1048.4,
+      "Urban": 1127.8,
+      "Rural": 483.5
+    },
+    {
+      "period": "2017 Q4",
+      "Total": 1761.3,
+      "Women": 748.0,
+      "Men": 1013.3,
+      "Urban": 1193.7,
+      "Rural": 567.6
+    },
+    {
+      "period": "2018 Q1",
+      "Total": 1712.8,
+      "Women": 774.4,
+      "Men": 938.4,
+      "Urban": 1116.2,
+      "Rural": 596.6
+    },
+    {
+      "period": "2018 Q2",
+      "Total": 1487.9,
+      "Women": 516.9,
+      "Men": 971.0,
+      "Urban": 1015.7,
+      "Rural": 472.2
+    },
+    {
+      "period": "2018 Q3",
+      "Total": 1447.2,
+      "Women": 567.3,
+      "Men": 879.9,
+      "Urban": 1004.2,
+      "Rural": 443.0
+    },
+    {
+      "period": "2018 Q4",
+      "Total": 1666.4,
+      "Women": 682.7,
+      "Men": 983.7,
+      "Urban": 1116.1,
+      "Rural": 550.3
+    },
+    {
+      "period": "2019 Q1",
+      "Total": 1645.8,
+      "Women": 701.0,
+      "Men": 944.8,
+      "Urban": 1064.9,
+      "Rural": 580.9
+    },
+    {
+      "period": "2019 Q2",
+      "Total": 1410.9,
+      "Women": 638.9,
+      "Men": 772.0,
+      "Urban": 953.9,
+      "Rural": 457.0
+    },
+    {
+      "period": "2019 Q3",
+      "Total": 1328.7,
+      "Women": 624.1,
+      "Men": 704.6,
+      "Urban": 916.1,
+      "Rural": 412.6
+    },
+    {
+      "period": "2019 Q4",
+      "Total": 1565.4,
+      "Women": 755.0,
+      "Men": 810.4,
+      "Urban": 1044.4,
+      "Rural": 521.0
+    },
+    {
+      "period": "2020 Q1",
+      "Total": 1548.9,
+      "Women": 755.9,
+      "Men": 793.0,
+      "Urban": 1017.9,
+      "Rural": 531.0
+    },
+    {
+      "period": "2020 Q2",
+      "Total": 1712.2,
+      "Women": 764.8,
+      "Men": 947.4,
+      "Urban": 1118.1,
+      "Rural": 594.1
+    },
+    {
+      "period": "2020 Q3",
+      "Total": 1669.0,
+      "Women": 724.7,
+      "Men": 944.3,
+      "Urban": 1101.6,
+      "Rural": 567.4
+    },
+    {
+      "period": "2020 Q4",
+      "Total": 1766.8,
+      "Women": 807.2,
+      "Men": 959.6,
+      "Urban": 1166.5,
+      "Rural": 600.3
+    },
+    {
+      "period": "2021 Q1",
+      "Total": 1806.0,
+      "Women": 873.9,
+      "Men": 932.1,
+      "Urban": 1179.7,
+      "Rural": 626.3
+    },
+    {
+      "period": "2021 Q2",
+      "Total": 1619.5,
+      "Women": 783.2,
+      "Men": 836.3,
+      "Urban": 1077.9,
+      "Rural": 541.6
+    },
+    {
+      "period": "2021 Q3",
+      "Total": 1614.9,
+      "Women": 817.7,
+      "Men": 797.2,
+      "Urban": 1075.4,
+      "Rural": 539.5
+    },
+    {
+      "period": "2021 Q4",
+      "Total": 1805.8,
+      "Women": 891.4,
+      "Men": 914.4,
+      "Urban": 1195.7,
+      "Rural": 610.1
+    }
+  ],
+  "encoding": {
+    "xKey": "period",
+    "kind": "line",
+    "unit": "thousands",
+    "series": {
+      "period": {
+        "label": "period"
+      },
+      "Total": {
+        "label": "Total",
+        "color": "#8884d8"
+      },
+      "Women": {
+        "label": "Women",
+        "color": "#e26dbd"
+      },
+      "Men": {
+        "label": "Men",
+        "color": "#45b5e6"
+      },
+      "Urban": {
+        "label": "Urban",
+        "color": "#d5a82f"
+      },
+      "Rural": {
+        "label": "Rural",
+        "color": "#73cd46"
+      }
+    }
+  },
+  "axes": {
+    "x": {
+      "label": "period"
+    },
+    "y": {
+      "label": "Unemployment",
+      "suffix": "thousands"
+    }
+  },
+  "visibleByDefault": [
+    "Women",
+    "Men",
+    "Urban",
+    "Rural"
+  ]
+}

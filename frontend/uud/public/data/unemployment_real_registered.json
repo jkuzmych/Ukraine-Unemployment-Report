@@ -1,0 +1,157 @@
+{
+  "data": [
+    {
+      "year": 2000,
+      "Real unemployed": 2630.0,
+      "Registered unemployed": 1178.7
+    },
+    {
+      "year": 2001,
+      "Real unemployed": 2440.3,
+      "Registered unemployed": 1063.2
+    },
+    {
+      "year": 2002,
+      "Real unemployed": 2128.6,
+      "Registered unemployed": 1028.1
+    },
+    {
+      "year": 2003,
+      "Real unemployed": 1994.0,
+      "Registered unemployed": 1024.2
+    },
+    {
+      "year": 2004,
+      "Real unemployed": 1888.2,
+      "Registered unemployed": 975.5
+    },
+    {
+      "year": 2005,
+      "Real unemployed": 1595.2,
+      "Registered unemployed": 891.9
+    },
+    {
+      "year": 2006,
+      "Real unemployed": 1513.7,
+      "Registered unemployed": 784.5
+    },
+    {
+      "year": 2007,
+      "Real unemployed": 1416.7,
+      "Registered unemployed": 673.1
+    },
+    {
+      "year": 2008,
+      "Real unemployed": 1424.0,
+      "Registered unemployed": 596.0
+    },
+    {
+      "year": 2009,
+      "Real unemployed": 1956.6,
+      "Registered unemployed": 693.1
+    },
+    {
+      "year": 2010,
+      "Real unemployed": 1784.2,
+      "Registered unemployed": 452.1
+    },
+    {
+      "year": 2011,
+      "Real unemployed": 1731.7,
+      "Registered unemployed": 505.3
+    },
+    {
+      "year": 2012,
+      "Real unemployed": 1656.6,
+      "Registered unemployed": 467.7
+    },
+    {
+      "year": 2013,
+      "Real unemployed": 1576.4,
+      "Registered unemployed": 487.6
+    },
+    {
+      "year": 2014,
+      "Real unemployed": 1847.1,
+      "Registered unemployed": 458.6
+    },
+    {
+      "year": 2015,
+      "Real unemployed": 1654.0,
+      "Registered unemployed": 461.1
+    },
+    {
+      "year": 2016,
+      "Real unemployed": 1677.5,
+      "Registered unemployed": 407.2
+    },
+    {
+      "year": 2017,
+      "Real unemployed": 1697.3,
+      "Registered unemployed": 352.5
+    },
+    {
+      "year": 2018,
+      "Real unemployed": 1577.6,
+      "Registered unemployed": 341.7
+    },
+    {
+      "year": 2019,
+      "Real unemployed": 1486.9,
+      "Registered unemployed": 338.2
+    },
+    {
+      "year": 2020,
+      "Real unemployed": 1673.3,
+      "Registered unemployed": 459.2
+    },
+    {
+      "year": 2021,
+      "Real unemployed": 1709.5,
+      "Registered unemployed": 295.0
+    },
+    {
+      "year": 2022,
+      "Registered unemployed": 186.5
+    },
+    {
+      "year": 2023,
+      "Registered unemployed": 96.1
+    },
+    {
+      "year": 2024,
+      "Registered unemployed": 94.2
+    }
+  ],
+  "encoding": {
+    "xKey": "year",
+    "kind": "line",
+    "unit": "thousands",
+    "series": {
+      "year": {
+        "label": "year"
+      },
+      "Real unemployed": {
+        "label": "Real unemployed",
+        "color": "#8884d8"
+      },
+      "Registered unemployed": {
+        "label": "Registered unemployed",
+        "color": "#39a8e6"
+      }
+    }
+  },
+  "axes": {
+    "x": {
+      "label": "year"
+    },
+    "y": {
+      "label": "Unemployment",
+      "suffix": "Thousands"
+    }
+  },
+  "visibleByDefault": [
+    "Real unemployed",
+    "Registered unemployed"
+  ]
+}

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import { RechartsDevtools } from '@recharts/devtools';
@@ -8,12 +9,12 @@ import Unemployment_by_category_Notes from './Notes'
 
 export default function UnrateByCategories() {
   const data = useData();
-  const [usePercent, setUsePercent] = useState(true);
-  const [hiddenLines, setHiddenLines] = useState(
+  const [usePercent, setUsePercent] = useState(true); //TODO: 2 fields in input .json data: data_numbers and data_rates. If only one present - render, if both present - add this switch
+  const [hiddenLines, setHiddenLines] = useState( //TODO: generate programmatically
     new Set(['females_pc', 'males_pc', 'rural_pc', 'urban_pc', 'females', 'males', 'rural', 'urban'])
   );
 
-  const seriesConfig = [
+  const seriesConfig = [ //TODO: transfer this info to each .json dataset through initial python scripts
     { baseKey: 'total', name: 'Total', color: '#8884d8' },
     { baseKey: 'females', name: 'Females', color: '#ff84d8' },
     { baseKey: 'males', name: 'Males', color: '#45b5e6' },

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import { RechartsDevtools } from '@recharts/devtools';
