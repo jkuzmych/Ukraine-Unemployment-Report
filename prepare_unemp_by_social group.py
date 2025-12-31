@@ -41,7 +41,7 @@ emp = emp.rename(columns={
     "rural area": "rural"
 })
 
-#drop rows wehere all numeric values are "NA"
+#drop rows where all numeric values are "NA"
 emp_numeric_cols = ["total", "females", "males",
                 "urban", "rural"]
 emp = emp.dropna(subset=emp_numeric_cols, how="all")
@@ -53,12 +53,12 @@ for col in ["total", "females", "males", "urban", "rural"]:
 unemp_formatted = []
 
 
-#crete three separate dtaaframes for each age group(so every data point would have only one data for each period)
-#unemp_15_years_and_over = unemp[unemp["age_category"] == "15 years and over"].copy().drop(columns=['age_category'])
+#create three separate dtaaframes for each age group(so every data point would have only one data for each period)
+unemp_15_years_and_over = unemp[unemp["age_category"] == "15 years and over"].copy().drop(columns=['age_category'])
 
 unemp_15_70 = unemp[unemp["age_category"] == "15-70 years"].copy().drop(columns=['age_category'])
 
-#unemp_working_age = unemp[unemp["age_category"] == "working age"].copy().drop(columns=['age_category'])
+unemp_working_age = unemp[unemp["age_category"] == "working age"].copy().drop(columns=['age_category'])
 
 #writing json with unemployment rate data 15-70
 unemp_15_70_rate = unemp_15_70.drop(columns=["total", "females", "males", "urban", "rural"], errors="ignore")
@@ -137,50 +137,3 @@ for category in unemp_15_70.columns:
 # with open("frontend/uud/public/data/unemployment_by_social_group.json", "w", encoding="utf-8") as f:
 #     json.dump(result_15_70, f, indent=2, ensure_ascii=False)
 
-# #helper function to write json
-# def write_json(df, output_path):
-#     df.to_json(output_path, orient="records", indent=2)
-
-# def generic_write_json(data, output_path):
-#     json_data = json.dumps(data, indent=2)
-#     with open(output_path, "w") as f:
-#         f.write(json_data)
- 
-
-#dataframe to json 
-# write_json(unemp_15_years_and_over, 
-#             "frontend/uud/public/data/unemployment_15_years_and_over.json")
-
-# write_json(unemp_15_70_years, 
-#             "frontend/uud/public/data/unemployment_15_70_years.json")
-
-# write_json(unemp_working_age, 
-#             "frontend/uud/public/data/unemployment_working_age.json")
-
-#write nested json (grouped by number_data and rate_data)
-# def format_period_dict(row, columns):
-#     result = {}
-#     result['number_data'] = {}
-#     result['rate_data']   = {}
-#     result['period']      = row['period'].values[0]
-#     for column in columns:
-#         if column.endswith('_pc'): 
-#             result['rate_data'][column] = float(row[column].values[0])
-#         else:
-#             result['number_data'][column] = float(row[column].values[0])
-#     return result
-
-# def format_df(df, indexes, columns):
-#     result = []
-#     for i in indexes:
-#         result.append(format_period_dict(df.loc[[i]], columns))
-#     return result
-
-# indexes = unemp_working_age.index.values
-# columns = unemp_working_age.columns.tolist()[1:]
-
-
-# unemp_working_age_jsonlike = format_df(df=unemp_working_age, indexes=indexes, columns=columns)
-
-# generic_write_json(unemp_working_age_jsonlike, 
-#              "frontend/uud/public/data/unemployment_working_age.json")

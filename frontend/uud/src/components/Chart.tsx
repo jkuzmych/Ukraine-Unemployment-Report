@@ -1,7 +1,6 @@
 import { useState, useMemo, useCallback, useEffect } from 'react';
 import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import './UnemploymentChart.css'
-import Unemployment_by_category_Notes from './Notes'
 import { getFieldVisibility, stringToColor } from './ParseChartJSON'
 import { ChartData } from './Types';
 import { CustomTooltip } from './CustomTooltip';
@@ -51,14 +50,6 @@ export default function Chart({ chartData } : { chartData: ChartData }) {
   return (
     <>
       <div className="chart-container">
-        <div className="chart-header">
-          <div>
-            <p className="chart-subtitle">
-              Dispaly data.
-            </p>
-          </div>
-        </div>
-
         <div className="chart-body">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart 
@@ -109,7 +100,6 @@ export default function Chart({ chartData } : { chartData: ChartData }) {
           </ResponsiveContainer>
         </div>
       </div>
-      <Unemployment_by_category_Notes></Unemployment_by_category_Notes>
     </>
   );
 }

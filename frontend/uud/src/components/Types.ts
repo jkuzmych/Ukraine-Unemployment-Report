@@ -1,3 +1,4 @@
+//datatype to work with jsons
 export type ChartDataBucket = {
     [key: string]: number,
 };
