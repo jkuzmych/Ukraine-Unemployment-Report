@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Ukraine-Unemployment-Report/frontend/uud/" ,
+  base: "/Ukraine-Unemployment-Report/",
   plugins: [
     react(),
   ],
